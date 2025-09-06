@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Year Togethe❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" style="overflow: auto;">
+
+  <!-- Password overlay -->
+  <div class="password-overlay" id="passwordOverlay" style="display: flex;">
+    <h2>Unesi šifru 💌</h2>
+    <input type="password" id="sitePassword" placeholder="Tvoja tajna...">
+    <button onclick="checkPassword()">Uđi</button>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div><strong>One Year Together ❤️</strong></div>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#about">O nama</a>
+      <a href="#gallery">Slike J&V</a>
+      <a href="#momenti">Momenti</a>
+      <a href="#love-jar">Tegla Ljubavi</a>
+      <a href="#poem">Pesma</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero aos-init aos-animate" data-aos="fade-in">
+    <h1>One Year Together ❤️</h1>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section aos-init" data-aos="fade-up">
+    <h2>O nama</h2>
+    <p>Već 365 dana smo zajedno i mogu slobodno da kažem da je to bila najlepša godina mog života. Od putovanja na Zlatibor, do šetnji po Temišvaru i sunčanih dana na moru u Španiji, svaka destinacija je bila posebna jer smo je delili zajedno.
+
+Naše filmske večeri, sa obaveznim čipsom, pretvorile su se u male praznike, a tvoje kuvanje… pa, to je neprevaziđeno i zauvek ostaje na tronu najboljih ukusa.
+
+Igrali smo Jengu, Uno, stoni tenis i ko zna još koliko igara i uvek je bilo ludo i nezaboravno. Naše šale i međusobno zadirkivanje učinili su da nijedan trenutak ne bude dosadan. Ako ovih 365 dana izgledaju ovako, jedva čekam da brojimo sledećih 365, i još mnogo više. 💕</p>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section aos-init" data-aos="fade-up">
+    <h2>Slike J&V</h2>
+    <div class="gallery">
+      <img src="1.jpg" alt="Fotografija 1">
+      <img src="2.jpg" alt="Fotografija 2">
+      <img src="3.jpg" alt="Fotografija 3">
+      <img src="4.jpg" alt="Fotografija 4">
+      <img src="5.jpg" alt="Fotografija 5">
+      <img src="6.jpg" alt="Fotografija 6">
+      <img src="7.jpg" alt="Fotografija 7">
+      <img src="8.jpg" alt="Fotografija 8">
+      <img src="9.jpg" alt="Fotografija 9">
+      <img src="10.jpg" alt="Fotografija 10">
+      <img src="11.jpg" alt="Fotografija 11">
+      <img src="12.jpg" alt="Fotografija 12">
+      <img src="13.jpg" alt="Fotografija 13">
+      <img src="13.5.jpg" alt="Fotografija 13.5">
+      <img src="14.jpg" alt="Fotografija 14">
+      <img src="15.jpg" alt="Fotografija 15">
+      <img src="16.jpg" alt="Fotografija 16">
+      <img src="17.jpg" alt="Fotografija 17">
+      <img src="18.jpg" alt="Fotografija 18">
+      <img src="19.jpg" alt="Fotografija 19">
+      <img src="20.jpg" alt="Fotografija 20">
+      <img src="21.jpg" alt="Fotografija 21">
+      <img src="22.jpg" alt="Fotografija 22">
+      <img src="23.jpg" alt="Fotografija 23">
+      <img src="23.5.jpg" alt="Fotografija 23.5">
+      <img src="24.jpg" alt="Fotografija 24">
+      <img src="25.jpg" alt="Fotografija 25">
+      <img src="26.jpg" alt="Fotografija 26">
+      <img src="27.jpg" alt="Fotografija 27">
+      <img src="28.jpg" alt="Fotografija 28">
+      <img src="29.jpg" alt="Fotografija 29">
+      <img src="30.jpg" alt="Fotografija 30">
+      <img src="31.jpg" alt="Fotografija 31">
+      <img src="32.jpg" alt="Fotografija 32">
+      <img src="33.jpg" alt="Fotografija 33">
+    </div>
+  </section>
+
+  <!-- Modal za slike sa next/prev -->
+  <div id="imgModal" class="modal">
+    <span id="prev" class="nav-arrow">&#10094;</span>
+    <img id="modalImg" src="" alt="">
+    <span id="next" class="nav-arrow">&#10095;</span>
+  </div>
+
+  <!-- Timeline / Momenti -->
+  <section id="momenti">
+    <h2>✨ Momenti ✨</h2>
+    <div class="timeline">
+
+      <!-- Prva poruka -->
+      <div class="moment left">
+        <div class="content">
+          <h3>💬 Prva poruka – 16.08.</h3>
+          <img src="prva.jpg" alt="Prva poruka" class="clickable single">
+          <p>Taj upad na story koji je sve promenio. Nekim čudom nisam popio blok.</p>
+          <img src="druga.jpg" alt="Druga slika" class="clickable single">
+        </div>
+      </div>
+
+      <!-- Treća -->
+      <div class="moment left">
+        <div class="content">
+          <h3>❓ Ključno pitanje</h3>
+          <img src="treca.jpg" alt="Treća slika" class="clickable single">
+          <p>Kad se konačno skupila hrabrost da se pita ključno pitanje. Pozitivan odgovor ovde je zahvalan za sve lepe momente koji su dalje usledili.</p>
+        </div>
+      </div>
+
+      <!-- (sve ostale .moment sekcije ostaju iste kao u originalu) -->
+
+      <div class="moment left">
+        <div class="content">
+          <h3>💖 Prvi dejt – 23.09.</h3>
+          <p>Najopušteniji i ujedno najnervozniji dejt ikad. Molio Boga da nisi 2 metra visoka i da si bar približno lepa kao na slikama. Ali molitve nisu ispunjene. Ispostavilo se da si neopisivo i zanosno lepa uživo. Toliko da sam konverzaciju jedva pratio u nekim momentima.</p>
+        </div>
+      </div>
+
+      <div class="moment left">
+        <div class="content">
+          <h3>💋 Drugi dejt – 25.09.</h3>
+          <p>Hrabrost se skupila još jednom! Iako sam jedva čekao kraj dejta da bih te poljubio, isto tako nisam hteo da se završi. Verovatno ne najbolja fora u mom arsenalu ali srećom upalila je - we finally kissed!</p>
+        </div>
+      </div>
+
+      <div class="moment left">
+        <div class="content">
+          <h3>🎉 Doček Nove</h3>
+          <img src="cetvrta.jpg" alt="Nova godina" class="clickable single">
+          <p>Zajedno dočekali Novu godinu uz minijaturnu jelku, poklone koji su me oduševili i puno zabave. Tu su pale i prve zajedničke slike.</p>
+        </div>
+      </div>
+
+      <div class="moment left">
+        <div class="content">
+          <h3>🏞️ Prvo putovanje</h3>
+          <p>Zlatibor, prelepa 3 dana gde sam skontao da možemo provesti nekoliko dana zajedno a da se ne zakoljemo. Šetnja po planini, dok je neko meketao stalno da ne može više, gledanje Žikine dinastije uveče i brčkanje u Spa centru ostaju neprevaziđeni.</p>
+          <div class="multi-img">
+            <img src="peta.jpg" class="clickable">
+            <img src="sesta.jpg" class="clickable">
+            <img src="sedma.jpg" class="clickable">
+          </div>
+        </div>
+      </div>
+
+      <div class="moment left">
+        <div class="content">
+          <h3>🧩 Slagalica</h3>
+          <img src="slagalica.jpg" class="clickable single">
+          <p>Mukotrpan rad, nerviranje, zezanje i konačno slaganje londonskog pejzaža je bilo prejako. Obožavao sam noći kad si dolazila kod mene samo da slažemo prokleto more i nebo, koje je trajalo satima. Rezultat je prelepa slika koji još uvek nisam okačio...</p>
+        </div>
+      </div>
+
+      <div class="moment left">
+        <div class="content">
+          <h3>🎁 Pokloni i rođendani</h3>
+          <p>Ovi momenti su mi pokazali koliko ti zapravo značim. Dosetljivost i znakovi pažnje, kao i sami pokloni su me raspametili. Nikad takvu pažnju i ljubav nisam osetio, a posvete koje si mi pravila čitam i dan danas.</p>
+          <div class="multi-img">
+            <img src="desetab.jpg" class="clickable">
+            <img src="deseta.jpg" class="clickable">
+            <img src="desetac.jpg" class="clickable">
+            <img src="desetad.jpg" class="clickable">
+            <img src="wy3.jpg" class="clickable">
+            <img src="wy2.jpg" class="clickable">
+            <img src="wy.jpg" class="clickable">
+            <img src="wy1.jpg" class="clickable">
+            <img src="wy4.jpg" class="clickable">
+          </div>
+        </div>
+      </div>
+
+      <div class="moment left">
+        <div class="content">
+          <h3>🥞 Konačno! 06.05</h3>
+          <img src="palac.jpg" class="clickable single">
+          <p>Dočekasmo i ovo! Tolike priče, mitovi, bajke i obećanja, ali vredelo je. Taj 6. maj slavim kao drugi rođendan. Palačinke ispale kao iz raja i od tad svaki dan tražim da ih probam opet.</p>
+        </div>
+      </div>
+
+      <div class="moment left">
+        <div class="content">
+          <h3>🌍 Putovanja</h3>
+          <p>Svako putovanje predstavljalo je prelepo iskustvo ali i test. Izgurali smo svako, oboje smo preživeli i proveli nezaboravno. Jedva čekam sledeća putovanja, a biće ih dosta...</p>
+          <div class="multi-img">
+            <img src="w1.jpg" class="clickable">
+            <img src="w4.jpg" class="clickable">
+            <img src="w5.jpg" class="clickable">
+          </div>
+        </div>
+      </div>
+
+      <div class="moment left">
+        <div class="content">
+          <h3>📅 Evo nas</h3>
+          <p>I evo nas 365 i više dana kasnije od prve poruke. Imali smo nezaboravne momente, najviše volim naše interne fore i peckanja koja samo ti i ja znamo i razumemo.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+  </div>
+
+  <!-- Tegla Ljubavi Section -->
+  <section id="love-jar" class="section aos-init" data-aos="fade-up">
+    <h2>Tegla Ljubavi</h2>
+    <div id="jar-container">
+        <div id="jar">
+            <div id="jar-text">Razlozi zašto te volim</div>
+        </div>
+        <div id="lid"></div>
+    </div>
+  </section>
+
+  <!-- Pesma (tekst) -->
+  <section id="poem" class="section quote-carousel aos-init" data-aos="fade-up">
+    <h2>Pesma</h2>
+    <div class="poem">
+<p><strong>Jedini trenutak pravi je kad si pored mene,
+Oko tebe cveta ljubav što me uvek pokrene.
+Večno pamtim prvi pogled tvoj,
+A u tvom zagrljaju svet je moj.
+Naša godina prošla je ko let,
+A ti si moja ljubav, osmeh i svet.
+
+Večno bih birao trenutke s tobom,
+Osim kad mekećeš i nazivaš me spodobom.
+Ljubav tvoja greje me kao sunčev sjaj,
+I svaki tvoj pogled srcu mi čini raj.
+Moje srce za tebe zauvek će da bije,
+
+Tvoje oči su svetlost, i kad se sunce skrije.
+Eternu ljubav ti dajem, u svakom trenu,
+
+Voleću te i kad mi živci od tebe skrenu!</p>
+
+
+Srećna godišnjica, bebs! ❤️
+    </div>
+  </section>
+
+  <!-- Love Button -->
+  <button class="love-button" onclick="showHearts()">❤️</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>Napravljeno s ljubavlju • © One Year of Us</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
